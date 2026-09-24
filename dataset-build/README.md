@@ -85,16 +85,17 @@ Deux modes de features :
 ## Structure du projet
 
 ```
-hf_param_dataset/
-  config.py          # cible (nb de MoE, tri par likes...)
-  architectures.py   # normalisation des configs + formules total/activé
-  hub_rest.py         # client REST direct et stable pour lister/trier les modèles
-  fetch.py           # téléchargement config.json + métadonnées par modèle
-  scrape_log.py       # log de reprise (JSONL append-only)
-  build_dataset.py   # orchestration -> CSV, résumable
-  train_model.py      # entraînement du modèle de régression
-tests/
-  test_architectures.py  # validation des formules sur des modèles connus
+dataset-build/
+  src/
+    config.py          # cible (nb de MoE, tri par likes...)
+    architectures.py   # normalisation des configs + formules total/activé
+    hub_rest.py         # client REST direct et stable pour lister/trier les modèles
+    fetch.py           # téléchargement config.json + métadonnées par modèle
+    scrape_log.py       # log de reprise (JSONL append-only)
+    build_dataset.py   # orchestration -> CSV, résumable
+    train_model.py      # entraînement du modèle de régression
+  tests/
+    test_architectures.py  # validation des formules sur des modèles connus
 data/                      # créé à l'exécution
   hf_activated_params_dataset.csv
   scrape_log.jsonl

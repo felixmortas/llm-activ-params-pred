@@ -10,7 +10,7 @@ import os
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-from hf_param_dataset.architectures import normalize_config, estimate_params
+from architectures import normalize_config, estimate_params
 
 
 def check(name, raw_config, expected_total_b, expected_active_b, tol=0.10):
