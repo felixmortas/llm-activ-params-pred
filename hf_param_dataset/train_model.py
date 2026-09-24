@@ -60,7 +60,7 @@ def build_pipeline(numeric_features):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--csv", default="data/hf_activated_params_dataset.csv")
+    parser.add_argument("--csv", default="data/clean-hf_activated_params_dataset.csv")
     parser.add_argument("--feature-mode", choices=["full", "restricted"], default="restricted")
     parser.add_argument("--out", default="data/activated_params_model.joblib")
     args = parser.parse_args()

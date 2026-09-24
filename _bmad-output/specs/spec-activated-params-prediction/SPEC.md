@@ -3,7 +3,7 @@ id: SPEC-activated-params-prediction
 companions:
   - data-science-workflow.md
   - prompt-replacement-selection.md
-  - ../../../data/hf_activated_params_dataset.csv
+  - ../../../data/clean-hf_activated_params_dataset.csv
 sources: []
 ---
 

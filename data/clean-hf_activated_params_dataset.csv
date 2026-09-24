@@ -1,0 +1,112 @@
+model_id,statut,famille,model_type,hidden_size,num_hidden_layers,num_attention_heads,num_key_value_heads,head_dim,intermediate_size,vocab_size,tie_word_embeddings,is_moe,num_local_experts,num_experts_per_tok,num_shared_experts,moe_intermediate_size,likes,total_params,activated_params,activation_ratio,total_params_source
+deepseek-ai/DeepSeek-Coder-V2-Lite-Base,modele de base,DeepSeek-Coder-V2-Lite,deepseek_v2,2048,27,16,16,128,10944,102400,False,True,64,6,2,1408,121,15706484224,2645947730,0.1684621263590555,safetensors
+deepseek-ai/DeepSeek-R1,modele de base,DeepSeek-R1,deepseek_v3,7168,61,128,128,56,18432,129280,False,True,256,8,1,2048,14274,684489845504,37559088622,0.0548716520320979,safetensors
+deepseek-ai/DeepSeek-V2,modele de base,DeepSeek-V2,deepseek_v2,5120,60,128,128,40,12288,102400,False,True,160,6,2,1536,336,235741434880,18637015110,0.0790570190577097,safetensors
+deepseek-ai/DeepSeek-V2-Lite,modele de base,DeepSeek-V2-Lite,deepseek_v2,2048,27,16,16,128,10944,102400,False,True,64,6,2,1408,188,15706484224,2645947730,0.1684621263590555,safetensors
+deepseek-ai/DeepSeek-V3,modele de base,DeepSeek-V3,deepseek_v3,7168,61,128,128,56,18432,129280,False,True,256,8,1,2048,4213,684531386000,37561368018,0.0548716520326213,safetensors
+deepseek-ai/DeepSeek-V3.1-Base,modele de base,DeepSeek-V3.1,deepseek_v3,7168,61,128,128,56,18432,129280,False,True,256,8,1,2048,1011,684531386000,37561368018,0.0548716520326213,safetensors
+deepseek-ai/DeepSeek-V3.2,modele de base,DeepSeek-V3.2,deepseek_v32,7168,61,128,128,56,18432,129280,False,True,256,8,1,2048,1491,685355329792,37606579175,0.0548716520325497,safetensors
+deepseek-ai/DeepSeek-V4-Flash,modele de base,DeepSeek-V4-Flash,deepseek_v4,4096,43,64,1,512,16384,129280,False,True,256,6,1,2048,2248,290944616402,20402835038,0.0701261817122241,safetensors
+deepseek-ai/DeepSeek-V4-Pro,modele de base,DeepSeek-V4-Pro,deepseek_v4,7168,61,128,1,512,28672,129280,False,True,384,6,1,3072,5583,1598839674782,87312401789,0.0546098543626051,safetensors
+zai-org/GLM-4.5-Air,modele de base,GLM-4.5-Air,glm4_moe,4096,46,96,8,128,10944,151552,False,True,128,8,1,1408,638,110468824832,13632377355,0.1234047467756808,safetensors
+zai-org/GLM-4.6,modele de base,GLM-4.6,glm4_moe,5120,92,96,8,128,12288,151552,False,True,160,8,1,1536,1235,356785898816,33069109397,0.0926861445666445,safetensors
+zai-org/GLM-4.7,modele de base,GLM-4.7,glm4_moe,5120,92,96,8,128,12288,151552,False,True,160,8,1,1536,2056,358337791296,33212948328,0.0926861445673334,safetensors
+zai-org/GLM-5,modele de base,GLM-5,glm_moe_dsa,6144,78,64,64,64,12288,154880,False,True,256,8,1,2048,2120,753864139008,35773373370,0.0474533427429957,safetensors
+zai-org/GLM-5.1,modele de base,GLM-5.1,glm_moe_dsa,6144,78,64,64,64,12288,154880,False,True,256,8,1,2048,1840,753864139008,35773373370,0.0474533427429957,safetensors
+zai-org/GLM-5.2,modele de base,GLM-5.2,glm_moe_dsa,6144,78,64,64,192,12288,154880,False,True,256,8,1,2048,5127,753329940480,50152524869,0.0665744478933682,safetensors
+zai-org/GLM-5.3,modele de base,GLM-5.3,glm_moe_dsa,6144,78,64,64,192,12288,154880,False,True,256,8,1,2048,1894,753329940480,50152524869,0.0665744478933682,safetensors
+tencent/Hy3,modele de base,Hy3,hy_v3,4096,80,64,8,128,13312,120832,False,True,192,8,1,1536,970,298786155776,20701051469,0.0692838375166203,safetensors
+nvidia/Hymba-1.5B-Base,modele de base,Hymba-1.5B,hymba,1600,32,25,5,64,5504,32001,True,True,1,1,0,5504,158,1522797824,1522797824,1.0,safetensors
+moonshotai/Kimi-K2-Base,modele de base,Kimi-K2,kimi_k2,7168,61,64,64,112,18432,163840,False,True,384,8,1,2048,306,1026470731056,38376638004,0.0373869773807572,safetensors
+poolside/Laguna-S-2.1,modele de base,Laguna-S-2.1,laguna,3072,48,48,8,128,12288,100352,False,True,256,10,0,1024,1029,117561977600,7226149534,0.0614667231831254,safetensors
+inclusionAI/Ling-3.0-flash,modele de base,Ling-3.0-flash,bailing_hybrid,2560,42,32,32,128,6144,157184,False,True,512,8,1,768,415,127486405600,4768002133,0.0374000828602857,safetensors
+inclusionAI/Ling-3.0-tiny,modele de base,Ling-3.0-tiny,bailing_hybrid,1536,24,16,16,128,4608,157184,False,True,128,8,1,512,471,7893392800,1266992314,0.1605130196992097,safetensors
+XiaomiMiMo/MiMo-V2.5-Pro,modele de base,MiMo-V2.5-Pro,mimo_v2,6144,70,128,8,192,16384,152576,False,True,384,8,0,2048,756,1023244718976,44939650112,0.043918770630913,safetensors
+MiniMaxAI/MiniMax-M2,modele de base,MiniMax-M2,minimax_m2,3072,62,48,8,128,1536,200064,False,True,256,8,0,1536,1503,228689764864,11029749520,0.0482301843572199,safetensors
+mistral-community/Mixtral-8x22B-v0.1,modele de base,Mixtral-8x22B-v0.1,mixtral,6144,56,48,8,128,16384,32000,False,True,8,2,0,16384,671,140620634112,39151530770,0.2784195293758739,safetensors
+moonshotai/Moonlight-16B-A3B,modele de base,Moonlight-16B-A3B,deepseek_v3,2048,27,16,16,128,11264,163840,False,True,64,6,2,1408,116,15960111936,2890561333,0.1811115952438894,safetensors
+nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16,modele de base,NVIDIA-Nemotron-3-Nano-30B-A3B,nemotron_h,2688,52,32,2,128,1856,131072,False,True,128,6,1,1856,132,31577937344,2279424392,0.0721840811566846,safetensors
+Qwen/Qwen1.5-MoE-A2.7B,modele de base,Qwen1.5-MoE-A2.7B,qwen2_moe,2048,24,16,16,128,5632,151936,False,True,60,4,0,1408,229,14315784192,1972894769,0.137812553091049,safetensors
+Qwen/Qwen3-235B-A22B,modele de base,Qwen3-235B-A22B,qwen3_moe,4096,94,64,4,128,12288,151936,False,True,128,8,0,1536,1111,235093634560,22190040653,0.0943880964473188,safetensors
+Qwen/Qwen3-30B-A3B,modele de base,Qwen3-30B-A3B,qwen3_moe,2048,48,32,4,128,6144,151936,False,True,128,8,0,768,945,30532122624,3352844924,0.1098136859100805,safetensors
+Qwen/Qwen3-Coder-Next,modele de base,Qwen3-Coder-Next,qwen3_next,2048,48,16,2,256,5120,151936,False,True,512,10,0,512,1650,79674391296,3119367297,0.0391514418404675,safetensors
+Qwen/Qwen3.8-2.4T-A95B,modele de base,Qwen3.8-2.4T-A95B,qwen3_5_moe_text,8192,92,64,4,256,32768,248320,False,True,512,10,0,2048,1236,2446182725504,78431172082,0.0320626792366217,safetensors
+upstage/Solar-Open2-250B,modele de base,Solar-Open2-250B,solar_open2,4096,48,64,8,128,10240,196608,False,True,320,8,1,1280,755,250287810304,12221258355,0.0488288196702669,safetensors
+stepfun-ai/Step-3.5-Flash,modele de base,Step-3.5-Flash,step3p5,4096,45,64,64,128,11264,128896,False,True,288,8,0,1280,836,199384301376,12106308406,0.0607184634018395,safetensors
+XingChen-AGI/Xing4.0-29B-A4B,modele de base,Xing4.0-29B-A4B,xing4_0,3584,40,32,32,112,9216,131072,False,True,64,4,1,1024,939,31215031088,5137613459,0.1645878052953486,safetensors
+deepseek-ai/deepseek-moe-16b-base,modele de base,deepseek-moe-16b,deepseek,2048,28,16,16,128,10944,102400,False,True,64,6,2,1408,156,16375728128,2746157979,0.1676968472812203,safetensors
+openai/gpt-oss-120b,modele de base,gpt-oss-120b,gpt_oss,2880,36,64,8,64,2880,201088,False,True,128,4,0,2880,5273,116829156672,5712204907,0.0488936586526693,safetensors
+openai/gpt-oss-20b,modele de base,gpt-oss-20b,gpt_oss,2880,24,64,8,64,2880,201088,False,True,32,4,0,2880,5075,20914757184,4187671602,0.2002256858713909,safetensors
+nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16,modele de base,nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16,nemotron_h,2688,52,32,2,128,1856,131072,False,True,128,6,1,1856,142,63185902848,4561016340,0.0721840811703202,safetensors
+AlexWortega/SIQ-1-35B,modele independant,N/A (aucune variante detectee),qwen3_5_moe_text,2048,40,16,2,256,8192,248320,False,True,256,8,0,512,102,34660610688,2853648798,0.0823311748222593,safetensors
+Alibaba-NLP/Tongyi-DeepResearch-30B-A3B,modele independant,N/A (aucune variante detectee),qwen3_moe,2048,48,32,4,128,5472,151936,False,True,128,8,0,768,822,30532122624,3352844924,0.1098136859100805,safetensors
+CohereLabs/North-Mini-Code-1.0,modele independant,N/A (aucune variante detectee),cohere2_moe,2048,49,32,4,128,768,262144,False,True,128,8,0,768,567,30484303872,3724036126,0.1221624132090005,safetensors
+HelpingAI/HELVETE-3B,modele independant,N/A (aucune variante detectee),stablelm,2560,32,32,32,256,6912,50281,False,True,8,2,0,6912,208,2795325440,1071976081,0.3834888294795471,safetensors
+IFM/K2-Horizon-MoVA-36B-A4B,modele independant,N/A (aucune variante detectee),k2_horizon,2560,48,32,8,128,6144,250624,False,True,100,8,1,768,346,37444792020,6133095119,0.1637903374045766,safetensors
+JetBrains/Mellum2-12B-A2.5B-Thinking,modele independant,N/A (aucune variante detectee),mellum,2304,28,32,4,128,7168,98304,False,True,64,8,0,896,337,12149923072,2438950041,0.2007378998654453,safetensors
+LGAI-EXAONE/K-EXAONE-2.0-750B-A37B,modele independant,N/A (aucune variante detectee),exaone_moe,6144,78,64,8,128,18432,153600,False,True,256,8,1,2048,155,749357484800,36457619506,0.0486518387358609,safetensors
+LGAI-EXAONE/K-EXAONE-236B-A23B,modele independant,N/A (aucune variante detectee),exaone_moe,6144,48,64,8,128,18432,153600,False,True,128,8,1,2048,577,237099669632,23275636896,0.0981681540599608,safetensors
+LiquidAI/LFM2-24B-A2B,modele independant,N/A (aucune variante detectee),lfm2_moe,2048,40,32,8,64,11776,65536,False,True,64,4,0,1536,349,23843661440,2113646372,0.0886460486498167,safetensors
+LiquidAI/LFM2-8B-A1B,modele independant,N/A (aucune variante detectee),lfm2_moe,2048,24,32,8,64,7168,65536,False,True,32,4,0,1792,371,8339929856,1466537919,0.1758453541362734,safetensors
+LiquidAI/LFM2.5-8B-A1B,modele independant,N/A (aucune variante detectee),lfm2_moe,2048,24,32,8,64,7168,128000,True,True,32,4,0,1792,769,8467856832,1484139012,0.1752673718326748,safetensors
+MiniMaxAI/MiniMax-Text-01,modele independant,N/A (aucune variante detectee),minimax_text_01,6144,80,64,8,128,9216,200064,False,True,32,2,0,9216,657,456089655296,39553278693,0.0867225955110297,safetensors
+Snowflake/snowflake-arctic-instruct,modele independant,N/A (aucune variante detectee),arctic,7168,35,56,8,128,4864,32000,False,True,128,2,0,4864,365,478584608768,12058919776,0.0251970488709253,safetensors
+XiaomiMiMo/MiMo-V2-Flash,modele independant,N/A (aucune variante detectee),mimo_v2_flash,4096,48,64,4,192,16384,152576,False,True,256,8,0,2048,751,309785318400,15797561213,0.050995190135518,safetensors
+XiaomiMiMo/MiMo-V2.5,modele independant,N/A (aucune variante detectee),mimo_v2,4096,48,64,4,192,16384,152576,False,True,256,8,0,2048,425,310775040000,15848032254,0.0509951901349606,safetensors
+ai21labs/AI21-Jamba-Reasoning-3B,modele independant,N/A (aucune variante detectee),jamba,2560,28,20,1,128,8192,65536,True,True,1,1,0,8192,140,3197109632,3197109632,1.0,safetensors
+ai21labs/Jamba-v0.1,modele independant,N/A (aucune variante detectee),jamba,4096,32,32,8,128,14336,65536,False,True,16,2,0,14336,1194,51570323328,7368195837,0.1428766655220766,safetensors
+allenai/OLMoE-1B-7B-0924,modele independant,N/A (aucune variante detectee),olmoe,2048,16,16,16,128,1024,50304,False,True,64,8,0,1024,150,6919161856,1281908823,0.1852693793957694,safetensors
+amd/Instella-MoE-16B-A3B-Think,modele independant,N/A (aucune variante detectee),deepseek_v3,2048,27,16,16,128,10944,128896,False,True,64,6,2,1408,179,15862789248,2759567254,0.1739648185988432,safetensors
+arcee-ai/Trinity-Mini,modele independant,N/A (aucune variante detectee),afmoe,2048,32,32,4,128,6144,200192,False,True,128,8,1,1024,205,26123974400,3092813070,0.1183898369614081,safetensors
+cloudyu/Mixtral_34Bx2_MoE_60B,modele independant,N/A (aucune variante detectee),mixtral,7168,60,56,8,128,20480,64000,False,True,2,2,0,20480,114,60813892608,60813892608,1.0,safetensors
+deepgrove/maple-preview,modele independant,N/A (aucune variante detectee),unknown,2048,24,16,4,128,4096,151936,False,True,256,8,0,512,415,20214030336,1490558636,0.0737388146363569,safetensors
+dots-studio/dots.llm1.inst,modele independant,N/A (aucune variante detectee),dots1,4096,62,32,32,128,10944,152064,False,True,128,6,2,1408,181,142774381696,13815875707,0.0967671899039789,safetensors
+ibm-granite/granite-4.0-h-small,modele independant,N/A (aucune variante detectee),granitemoehybrid,4096,40,32,8,128,768,100352,True,True,72,10,0,768,309,32207337984,6462921277,0.2006661115616154,safetensors
+ibm-granite/granite-4.0-h-tiny,modele independant,N/A (aucune variante detectee),granitemoehybrid,1536,40,12,4,128,512,100352,True,True,64,6,0,512,209,6939037248,1050035998,0.151323009298249,safetensors
+ibm-granite/granite-4.0-tiny-preview,modele independant,N/A (aucune variante detectee),granitemoehybrid,1536,40,12,4,128,512,49160,True,True,62,6,0,512,184,6671539776,968251476,0.1451316350512005,safetensors
+inclusionAI/LLaDA2.1-mini,modele independant,N/A (aucune variante detectee),llada2_moe,2048,20,16,4,128,5120,157184,False,True,256,8,1,512,126,16255643392,1364977689,0.0839694656239663,safetensors
+inclusionAI/Ling-2.6-flash,modele independant,N/A (aucune variante detectee),bailing_hybrid,4096,32,32,32,128,9216,157184,False,True,256,8,1,1024,506,107494409216,7128634298,0.0663163261233026,safetensors
+jdopensource/JoyAI-LLM-Flash,modele independant,N/A (aucune variante detectee),joyai_llm_flash,2048,40,32,32,64,7168,129280,False,True,256,8,1,768,175,49286094592,2894291479,0.0587243015085596,safetensors
+jetmoe/jetmoe-8b,modele independant,N/A (aucune variante detectee),jetmoe,2048,24,32,16,64,5632,32000,True,True,8,2,0,5632,253,8522237952,2465944878,0.2893541452244116,safetensors
+meituan-longcat/LongCat-2.0,modele independant,N/A (aucune variante detectee),unknown,8192,38,64,64,128,12288,163840,False,True,768,12,0,12288,272,1775560491136,30341963831,0.0170886680473427,safetensors
+meituan-longcat/LongCat-Flash-Lite,modele independant,N/A (aucune variante detectee),unknown,3072,14,32,32,96,6144,131072,False,True,256,12,0,6144,209,69073335552,3671211168,0.0531494698882208,safetensors
+microsoft/GRIN-MoE,modele independant,N/A (aucune variante detectee),grinmoe,4096,32,32,8,128,6400,32064,False,True,16,2,0,6400,201,41873153344,6640249008,0.1585801039020979,safetensors
+microsoft/Phi-3.5-MoE-instruct,modele independant,N/A (aucune variante detectee),phimoe,4096,32,32,8,128,6400,32064,False,True,16,2,0,6400,577,41873153344,6640249008,0.1585801039020979,safetensors
+mlabonne/Beyonder-4x7B-v2,modele independant,N/A (aucune variante detectee),mixtral,4096,32,32,8,128,14336,32000,False,True,4,2,0,14336,128,24153690112,12879276685,0.5332219062710147,safetensors
+mlabonne/phixtral-2x2_8,modele independant,N/A (aucune variante detectee),phi-msft,2560,32,32,32,80,10240,51200,False,True,2,2,0,10240,150,4457978880,4457978880,1.0,safetensors
+mlabonne/phixtral-4x2_8,modele independant,N/A (aucune variante detectee),phi-msft,2560,32,32,32,80,10240,51200,False,True,4,2,0,10240,209,7814405120,4292523055,0.5493089990962742,safetensors
+nakodanei/Blue-Orchid-2x7b,modele independant,N/A (aucune variante detectee),mixtral,4096,32,32,8,128,14336,32000,False,True,2,2,0,14336,108,12879138816,12879138816,1.0,safetensors
+poolside/Laguna-M.1,modele independant,N/A (aucune variante detectee),laguna,4096,70,64,8,128,16384,100352,False,True,256,16,0,1024,146,225795725568,19759451049,0.0875102971913846,safetensors
+sarvamai/sarvam-105b,modele independant,N/A (aucune variante detectee),sarvam_mla,4096,32,64,64,576,16384,262144,False,True,128,8,1,2048,296,106031767424,24305154234,0.2292252107503642,safetensors
+sarvamai/sarvam-30b,modele independant,N/A (aucune variante detectee),sarvam_moe,4096,19,64,4,64,8192,262144,False,True,128,6,1,1024,225,32152650368,4304473548,0.1338761656887868,safetensors
+skt/A.X-K1,modele independant,N/A (aucune variante detectee),axk1,7168,61,64,64,112,18432,163840,False,True,192,8,1,2048,295,518983059456,38085598589,0.0733850515832279,safetensors
+skt/A.X-K2,modele independant,N/A (aucune variante detectee),axk2,7168,61,64,64,112,18432,163840,False,True,256,8,1,2048,106,691690231040,38413340432,0.0555354676243484,safetensors
+tencent/Hy4-preview,modele independant,N/A (aucune variante detectee),hy_v4,6144,78,64,8,64,18432,120832,False,True,256,8,1,2048,485,779960992733,33258202987,0.0426408542181866,safetensors
+upstage/Solar-Open-100B,modele independant,N/A (aucune variante detectee),solar_open,4096,48,64,8,128,10240,196608,False,True,128,8,1,1280,496,102651793408,12054476352,0.117430742822858,safetensors
+zai-org/GLM-4.7-Flash,modele independant,N/A (aucune variante detectee),glm4_moe_lite,2048,47,20,20,102,10240,154880,False,True,64,4,1,1536,1845,31221488576,3759936110,0.1204278297252703,safetensors
+deepseek-ai/DeepSeek-Math-V2,substitut propose,DeepSeek-Math-V2,deepseek_v32,7168,61,128,128,56,18432,129280,False,True,256,8,1,2048,708,685396921376,37608861374,0.0548716520326595,safetensors
+deepseek-ai/DeepSeek-Prover-V2-671B,substitut propose,DeepSeek-Prover-V2-671B,deepseek_v3,7168,61,128,128,56,18432,129280,False,True,256,8,1,2048,833,684531386000,37561368018,0.0548716520326213,safetensors
+deepseek-ai/DeepSeek-V2.5,substitut propose,DeepSeek-V2.5 / DeepSeek-Coder-V2 (sans base explicite),deepseek_v2,5120,60,128,128,40,12288,102400,False,True,160,6,2,1536,735,235741434880,18637015110,0.0790570190577097,safetensors
+zai-org/GLM-4.5,substitut propose,GLM-4.5,glm4_moe,5120,92,96,8,128,12288,151552,False,True,160,8,1,1536,1411,358337791296,33212948328,0.0926861445673334,safetensors
+poolside/Laguna-XS-2.1,substitut propose,Laguna-XS.2 / Laguna-XS-2.1 (doublon probable),laguna,2048,40,48,8,128,8192,100352,False,True,256,8,0,512,247,33442617088,2583994846,0.0772665260975403,safetensors
+meituan-longcat/LongCat-Flash-Chat,substitut propose,LongCat-Flash,unknown,6144,28,64,64,96,12288,131072,False,True,512,12,0,12288,537,561862880256,14168336239,0.025216715210915,safetensors
+MiniMaxAI/MiniMax-M1-80k,substitut propose,MiniMax-M1 (variantes de contexte),minimax_m1,6144,80,64,8,128,9216,200064,False,True,32,2,0,9216,692,456089655296,39553278693,0.0867225955110297,safetensors
+dphn/dolphin-2.5-mixtral-8x7b,substitut propose,"Mixtral-8x7B (vocab 32002, fine-tunes communautaires)",mixtral,4096,32,32,8,128,14336,32002,False,True,8,2,0,14336,1253,46702809088,12879748815,0.2757810304457547,safetensors
+TheBloke/Mixtral-8x7B-v0.1-GPTQ,substitut propose,"Mixtral-8x7B-v0.1 / Instruct (vocab 32000, GPTQ + fine-tune)",mixtral,4096,32,32,8,128,14336,32000,False,True,8,2,0,14336,126,46711508992,12882136216,0.275780776386527,safetensors
+nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16,substitut propose,NVIDIA-Nemotron-3-Super-120B-A12B,nemotron_h,4096,88,32,2,128,2688,131072,False,True,512,22,1,2688,426,123611012096,5889045124,0.0476417515247459,safetensors
+nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16,substitut propose,NVIDIA-Nemotron-3.5-Lightning-30B-A3B,nemotron_h,2688,52,32,2,128,1856,131072,False,True,128,6,1,1856,218,31577937344,2279424392,0.0721840811566846,safetensors
+nvidia/Nemotron-Cascade-2-30B-A3B,substitut propose,Nemotron-Cascade-2-30B-A3B,nemotron_h,2688,52,32,2,128,1856,131072,False,True,128,6,1,1856,527,31577937344,2279424392,0.0721840811566846,safetensors
+Qwen/Qwen3-Coder-480B-A35B-Instruct,substitut propose,Qwen3-Coder-480B-A35B-Instruct,qwen3_moe,6144,62,96,8,128,8192,151936,False,True,160,8,0,2560,1371,480154875392,35474039352,0.0738804106134273,safetensors
+Qwen/Qwen3-Next-80B-A3B-Instruct,substitut propose,Qwen3-Next-80B-A3B (sans base non-finetunee),qwen3_next,2048,48,16,2,256,5120,151936,False,True,512,10,0,512,1052,81324862720,3183985633,0.0391514418408845,safetensors
+arcee-ai/Trinity-Large-Preview,substitut propose,Trinity-Large (Thinking/Preview),afmoe,3072,60,48,8,128,12288,200192,False,True,256,4,1,3072,181,398635286016,11233734010,0.0281804807654411,safetensors
+inclusionAI/Ling-1T,substitut propose,inclusionAI/Ling-1T (independant),bailing_moe,8192,80,64,8,128,18432,157184,False,True,256,8,1,2048,546,999705328640,48632240327,0.048646575079438,safetensors
+inclusionAI/Ling-2.5-1T,substitut propose,inclusionAI/Ling-2.5-1T (independant),bailing_hybrid,8192,80,64,64,128,18432,157184,False,True,256,8,1,2048,114,1012231160320,57784739220,0.0570865050249315,safetensors
+inclusionAI/Ling-2.6-1T,substitut propose,inclusionAI/Ling-2.6-1T (independant),bailing_hybrid,8192,80,64,64,128,18432,157184,False,True,256,8,1,2048,508,1025657871744,58551223250,0.0570865050257364,safetensors
+inclusionAI/Ling-flash-2.0,substitut propose,inclusionAI/Ling-flash-2.0 (independant),bailing_moe,4096,32,32,4,128,9216,157184,False,True,256,8,1,1024,218,102889705216,5971877252,0.0580415430237945,safetensors
+inclusionAI/Ling-mini-2.0,substitut propose,inclusionAI/Ling-mini-2.0 (independant),bailing_moe,2048,20,16,4,128,5120,157184,False,True,256,8,1,512,201,16255643392,1364977689,0.0839694656239663,safetensors
+inclusionAI/Ring-1T,substitut propose,inclusionAI/Ring-1T (independant),bailing_moe,8192,80,64,8,128,18432,157184,False,True,256,8,1,2048,233,999705328640,48632240327,0.048646575079438,safetensors
+inclusionAI/Ring-2.5-1T,substitut propose,inclusionAI/Ring-2.5-1T (independant),bailing_hybrid,8192,80,64,64,128,18432,157184,False,True,256,8,1,2048,243,1012474606720,57798636725,0.057086505025784,safetensors
+inclusionAI/Ring-2.6-1T,substitut propose,inclusionAI/Ring-2.6-1T (independant),bailing_hybrid,8192,80,64,64,128,18432,157184,False,True,256,8,1,2048,106,1025657871744,58551223250,0.0570865050257364,safetensors
+inclusionAI/Ring-flash-2.0,substitut propose,inclusionAI/Ring-flash-2.0 (independant),bailing_moe,4096,32,32,4,128,9216,157184,False,True,256,8,1,1024,103,102889705216,5971877252,0.0580415430237945,safetensors
+inclusionAI/Ring-mini-2.0,substitut propose,inclusionAI/Ring-mini-2.0 (independant),bailing_moe,2048,20,16,4,128,5120,157184,False,True,256,8,1,512,187,16255643392,1364977689,0.0839694656239663,safetensors
+pipecat-ai/phonellm-alpha-1,substitut propose,pipecat-ai/phonellm-alpha-1,nemotron_h,2688,52,32,2,128,1856,131072,False,True,128,6,1,1856,227,31577937344,2279424392,0.0721840811566846,safetensors
