@@ -1,9 +1,7 @@
 # HF Activated-Parameters Dataset & Model
 
-Construit un dataset de modèles HuggingFace (architecture + nombre de
-paramètres activés) et entraîne un modèle de régression pour prédire le
-nombre de paramètres **activés** (utilisés à chaque forward pass) d'un
-modèle, par opposition à son nombre de paramètres **total**.
+Instructions données pour la construction d'un dataset de modèles HuggingFace (architecture + nombre de
+paramètres activés).
 
 Pour un modèle dense, `activated == total`. Pour un modèle Mixture-of-
 Experts (Mixtral, Qwen-MoE, DeepSeek-V2/V3...), seule une fraction des
@@ -15,10 +13,10 @@ experts est routée par token, donc `activated < total`.
 pip install -r requirements.txt
 ```
 
-## 1. Construire le dataset
+## Construire le dataset
 
 ```bash
-python -m hf_param_dataset.build_dataset
+python -m dataset-build.src.build_dataset
 ```
 
 Par défaut (`moe_only = True` dans `config.py`), ceci cible les **1000
@@ -39,6 +37,9 @@ modèles Mixture-of-Experts avec le plus de likes** (l'équivalent Hub des
    sans jamais revérifier un modèle déjà vu ;
 6. s'arrête dès que 1000 modèles confirmés MoE ont été trouvés.
 
+/!\ 1 000 modèles MoE était surestimé. En surveillant, je me suis arrêté quand les modèles passaient sous le seuil des 100 likes.
+On a extrait 220 modèles MoE au total, probablement avec des doublons par rapport au modèle de base (modèles quantizés, distillé, fine-tuné). 
+
 Le CSV (`data/hf_activated_params_dataset.csv`) et le log
 (`data/scrape_log.jsonl`) sont écrits ligne par ligne au fil de l'eau :
 tu peux interrompre le script (Ctrl+C, crash, coupure réseau) à tout
@@ -47,21 +48,6 @@ moment et le relancer, il reprendra exactement là où il s'était arrêté.
 Passe `moe_only = False` dans `config.py` pour revenir à un mode
 générique (tous types de modèles `text-generation`, sans confirmation
 MoE ni reprise — voir `run_generic()` dans `build_dataset.py`).
-
-## 2. Entraîner le modèle
-
-```bash
-python -m hf_param_dataset.train_model --feature-mode restricted
-```
-
-Deux modes de features :
-- `restricted` (par défaut) : seulement `hidden_size`, `num_hidden_layers`,
-  `total_params` et `model_type`. Le modèle doit apprendre un ratio
-  d'activation typique par famille d'architecture — problème d'apprentissage
-  réellement non-trivial.
-- `full` : toutes les features, y compris le nombre exact d'experts et le
-  top-k de routage. Dans ce mode le modèle ré-apprend essentiellement notre
-  formule analytique.
 
 ## Limites connues
 
